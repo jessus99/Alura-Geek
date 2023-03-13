@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Producto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/headerprincipalAgregar.css">
+    <link rel="stylesheet" href="css/agregarProducto.css">
+    <link rel="stylesheet" href="css/quienesSomos.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <main>
+        <header>
+        <section class="headerPrincipal container">
+            <div class="titulo_principal">
+                <a class="titulo_principal" href="index.html">
+                    <img class="logo_imagen" src="imagenes/LogoGeek.png" alt="Logo Geek" ><h1 class="titulo_aluraGeek"  >
+                        <span class="otroColor">Alura</span>Geek
+                    </h1>       
+                </a>
+            </div>
+            <a class="boton_Admin"  href="menuAdmin.html">
+                <button class="boton_Admin">Menu <br> Administrador</button>
+            </a>
+            <a class="boton_buscador" href="#">
+                <input class="input_buscar" type="text" id="buscar" placeholder="Que desea Buscar?">
+                <button class="boton_buscadorr"><img src="imagenes/Buscador.png" alt="Buscador"></button>
+            </a>
+        </section>
+        </header>
+        <section class="agregarPro">
+            <form class="formulario_Producto" action="">
+                <h1 class="agregarProducto">Agregar nuevo producto</h1>
+                <input class="input-padronAgregar" type="url" name="url de imagen" id="url de imagen" required placeholder="URL de imagen">
+                <input class="input-padronAgregar" type="text" name="categoria" id="cateogria" required placeholder="Categoria">
+                <input class="input-padronAgregar" type="text" name="nombreProducto" id="nombreProducto" required placeholder="Nombre del producto">
+                <input class="input-padronAgregar" type="number" name="precio" id="precio" required placeholder="Precio del producto">
+                <input class="input-padronAgregar" type="text" name="descripcion" id="descripcion" required placeholder="Descripcion del producto">
+                <input class="AgregarProducto" type="submit" value="Agregar Producto" >
+            </form>
+        </section>
+        <section class="quienes_somos">
+            <div class="container">
+                <div class="titulo_principal_nosotros">
+                    <img src="imagenes/LogoGeek.png" alt="Logo AluraGeek" class="logo_imagen">
+                    <h1 class="titulo_aluraGeek_nosotros"><span class="otroColor">Alura</span>Geek</h1>
+                </div>
+                    <ul class="lista_sobreNosotros">
+                        <li class="list_quienesSomos">Quienes somos</li>
+                        <li class="list_quienesSomos">Política de privacidad</li>
+                        <li class="list_quienesSomos">Programa de fidelidad</li>
+                        <li class="list_quienesSomos">Nuestras tiendas</li>
+                        <li class="list_quienesSomos">Quiero ser franquiciado</li>
+                        <li class="list_quienesSomos">Anúncie aqui</li>
+                    </ul>
+                <div class="Contacto">
+                    <h1 class="hableConNosotros">hable con nosotros</h1>
+                    <form class="formulario_mensaje" action="">
+                        <input class="input-padron" type="text" id="nombreyapellido" required placeholder="Nombre y Apellido">
+                        <input class="input-padron" type="text" id="mensaje" placeholder="Mensaje">
+                        <input class="enviar" type="submit" value="Enviar Mensaje" >
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="rodapiePrincipal">
+            <div class="contenedor"></div>
+            <h1> © Desarrolado por Jesus Granados</h1>
+            <h4>2023</h4>
+        </footer>
+    </main>
+    
+    
+</body>
+</html>

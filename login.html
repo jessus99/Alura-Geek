@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login AluraGeek</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/headerPrincipalLogin.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/quienesSomos.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <header>
+        <section class="headerPrincipal container">
+            <div class="titulo_principal">
+                <a class="titulo_principal" href="index.html">
+                    <img class="logo_imagen" src="imagenes/LogoGeek.png" alt="Logo Geek" ><h1 class="titulo_aluraGeek"  >
+                        <span class="otroColor">Alura</span>Geek
+                    </h1>       
+                </a>
+            </div>
+            <a class="boton_buscador" href="#">
+                <input class="input_buscar" type="text" id="buscar" placeholder="Que desea Buscar?">
+                <button class="boton_buscadorr"><img src="imagenes/Buscador.png" alt="Buscador"></button>
+            </a>
+        </section>
+    </header>
+    <main>
+        <section class="login">
+            <form class="formulario_Login" action="">
+                <h1 class="iniciarSesion">Iniciar Sesión</h1>
+                <input class="input-padronlogin" type="email" name="email" id="email" required placeholder="Escriba su correo electrónico">
+                <input class="input-padronlogin" type="password" name="password" id="password" required placeholder="Escriba su contraseña">
+                <input class="enviarLogin" type="submit" value="Entrar" >
+            </form>
+        </section>
+        <section class="quienes_somos">
+            <div class="container">
+                <div class="titulo_principal_nosotros">
+                    <img src="imagenes/LogoGeek.png" alt="Logo AluraGeek" class="logo_imagen">
+                    <h1 class="titulo_aluraGeek_nosotros"><span class="otroColor">Alura</span>Geek</h1>
+                </div>
+                    <ul class="lista_sobreNosotros">
+                        <li class="list_quienesSomos">Quienes somos</li>
+                        <li class="list_quienesSomos">Política de privacidad</li>
+                        <li class="list_quienesSomos">Programa de fidelidad</li>
+                        <li class="list_quienesSomos">Nuestras tiendas</li>
+                        <li class="list_quienesSomos">Quiero ser franquiciado</li>
+                        <li class="list_quienesSomos">Anúncie aqui</li>
+                    </ul>
+                <div class="Contacto">
+                    <h1 class="hableConNosotros">hable con nosotros</h1>
+                    <form class="formulario_mensaje" action="">
+                        <input class="input-padron" type="text" id="nombreyapellido" required placeholder="Nombre y Apellido">
+                        <input class="input-padron" type="text" id="mensaje" placeholder="Mensaje">
+                        <input class="enviar" type="submit" value="Enviar Mensaje" >
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="rodapiePrincipal">
+            <div class="contenedor"></div>
+            <h1> © Desarrolado por Jesus Granados</h1>
+            <h4>2023</h4>
+        </footer>  
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,37 @@
+.login{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #E5E5E5;
+    height: 300px;
+}
+.iniciarSesion{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 19px;
+    color: #464646;
+}
+.formulario_Login{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 170px;
+}
+.input-padronlogin{
+    height: 20px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+}
+.enviarLogin{
+    background-color:#2A7AE4 ;
+    border: none;
+    padding: 5px 15px;
+    color: white;
+}

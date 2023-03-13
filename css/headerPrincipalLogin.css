@@ -1,0 +1,76 @@
+.headerPrincipal{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 75px;
+    padding: 0px 10px 5px 10px;
+}
+.titulo_principal{
+    display: flex;
+    font-family: "Raleway";
+    font-weight: bolder;
+    text-decoration: none;
+}
+.otroColor{
+    color: #2A7AE4;
+}
+@media screen and (max-width: 767px){
+    .input_buscar{
+        display: none;
+    }
+    .boton_buscadorr{
+        border: none;
+        background-color: white;
+        padding-right: 20px;
+    }
+}
+@media screen and (min-width: 768px){
+    .headerPrincipal{
+        display: flex;
+        justify-content: space-around;
+        padding-left: 50px;
+    }
+    .container{
+        padding: 0px 300px 0px 100px;
+    }
+    .boton_buscador{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 8px 16px;
+        background: #F5F5F5;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+    .input_buscar{
+        font-family: 'Raleway';
+        font-style: normal;
+        color: #A2A2A2;
+        height: 15px;
+        border: none;
+        background: #F5F5F5;
+    }
+    .boton_buscadorr{
+        border: none;
+        background-color: #F5F5F5;
+        
+    }
+}
+@media screen and (min-width: 1024px){
+    .container{
+        padding: 0px 400px 0px 100px;
+    }
+    .boton_login{
+        order: 1;
+    }
+    .input_buscar{
+        padding-right: 100px;
+    }
+    .boton_buscador{
+        display: flex;
+        padding: 8px;
+        background: #F5F5F5;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+}

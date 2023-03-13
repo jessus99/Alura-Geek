@@ -1,0 +1,103 @@
+.quienes_somos .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background:#EAF2FD ;
+    height: 430px;
+    padding: 10px;
+
+}
+.titulo_principal_nosotros{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 25px;
+    padding: 15px 0px 15px 0px;
+}
+.titulo_aluraGeek_nosotros{
+    font-family: "Raleway";
+    font-weight: bolder;
+}
+.lista_sobreNosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.list_quienesSomos{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Raleway';
+    font-style: normal;
+    color: #464646;
+    height: 25px;
+    padding-bottom: 10px;
+}
+.Contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 200px;
+    padding: 0px 0px 0px 0px;
+}
+.hableConNosotros{
+    font-family: "Raleway";
+    font-weight: bolder;
+    color: #464646;
+    align-items: start;
+    padding-bottom: 5px;
+}
+.formulario_mensaje{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+}
+.input-padron{
+    border-radius: 4px;
+    height: 30px;
+    width: 180%;
+    border: none;
+}
+.enviar{
+    background-color:#2A7AE4 ;
+    border: none;
+    padding: 0.75rem 1rem;
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+}
+
+@media screen and (min-width: 768px) {
+    .quienes_somos .container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 300px;
+        padding: 10px;
+    }
+    .Contacto{
+        justify-content: start;
+        justify-content: space-around;
+        padding-bottom: 90px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .quienes_somos .container{
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 250px;
+        padding: 10px;
+    }
+    .titulo_principal_nosotros{
+        padding-bottom: 200px;
+    }
+    .Contacto{
+        justify-content: start;
+        justify-content: space-around;
+        padding-top: 50px;
+        padding-right: 50px;
+    }
+}
